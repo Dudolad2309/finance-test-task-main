@@ -4,7 +4,7 @@ import appReducer from "./reducers";
 
 const middleware = [
   ...getDefaultMiddleware({
-    qqq: {
+    q: {
       ignoredActions: [],
     },
   }),
